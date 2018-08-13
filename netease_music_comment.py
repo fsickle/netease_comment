@@ -20,8 +20,8 @@ class Netease():
     def __init__(self):
         self.proxyHost = "http-dyn.abuyun.com"
         self.proxyPort = "9020"
-        self.proxyUser = 'H74274906A74PP2D'
-        self.proxyPass = 'EA516E778B9E0A75'
+        self.proxyUser = ''
+        self.proxyPass = ''
 
         self.proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
             "host": self.proxyHost,
